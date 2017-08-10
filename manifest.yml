@@ -10,7 +10,7 @@ declared-services:
     label: text_to_speech
     plan: standard
 applications:
-- name: carBot
+- name: Car
   command: npm start
   path: .
   memory: 512M
